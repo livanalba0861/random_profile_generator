@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src = "app.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--form with values to select-->
+    <form class = "selectors">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name = "first_name">
+        <!--the cover is an image-->
+        <label for="include_cover">Cover</label>
+        <select name="include_cover" id="include_cover">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select>
+        <label for="lastName">Last Name</label>
+        <input type="text" id = "last_name">
+        <label for="position">Position</label>
+        <select name="include_cover" id="position">
+            <option value="admin">Admin</option>
+            <option value="app_Builder">App Builder</option>
+            <option value="consultant">Consultant</option>
+            <option value="developer">Developer</option>
+            <option value="project_Manager">Project Manager</option>
+            <option value="margeting agent">Margeting agent</option>
+            <option value="manager">Manager</option>
+            <option value="seller">Seller</option>
+        </select>
+        <label for="twitter">Twitter</label>
+        <input type="text" id = "twitter">
+        <label for="github">Github</label>
+        <input type="text" id = "github">
+        <label for="linkedin">LinkedIn</label>
+        <input type="text" id = "linkedin">
+        <label for="instagram">Instagram</label>
+        <input type="text" id = "instagram">
+        <label for="role">Role</label>
+        <select name="include_cover" id="role">
+            <option value="external_agent">External agent</option>
+            <option value="partner">Partner</option>
+            <option value="company member">Company member</option>
+        </select>
+        <label for="city">City</label>
+        <input type="text" id = "city">
+        <label for="country">Country</label>
+        <input type="text" id = "country">
+    </form>
+
+    <!--here the values selected will be shown-->
+  <div>
+    <div class = "profile_cover">
+    <img src="profile_cover.jpg" alt="nice profile cover">
+    </div>
+    <div class = "profile_pic">
+    <img src="profile_pic.jpg" alt="my profile pic">
+    </div>
+    <p id = "profile_fName">Example of first name</p>
+    <p id = "profile_lName">Example of last name</p>
+    <p id = "profile_position">Example of position</p>
+    <p id = "profile_role">Example of role</p>
+    <p id = "profile_city">Example of city</p>
+    <p id = "profile_country">Example of country</p>
+
+</div>    
+ 
+</body>
+</html>
